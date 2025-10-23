@@ -2,6 +2,7 @@ module "eks" {
 
   # import the module template
   source  = "terraform-aws-modules/eks/aws"
+   version = "~> 21.6"  # latest stable that supports cluster_addons etc.
 
   #cluster info (control plane)
   cluster_name = local.name
