@@ -2,7 +2,6 @@ module "eks" {
 
   # import the module template
   source  = "terraform-aws-modules/eks/aws"
-  version = "18.0.0"
 
   #cluster info (control plane)
   cluster_name = local.name

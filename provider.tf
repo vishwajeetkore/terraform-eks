@@ -1,5 +1,4 @@
-provider "aws" {
 
-    region = local.region
-  
+provider "aws" {
+  region = local.region
 }
